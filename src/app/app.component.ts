@@ -3,6 +3,7 @@ import {Observable} from 'rxjs';
 import {NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Router} from '@angular/router';
 import {IsLoadingService} from '@service-work/is-loading';
 import {filter} from 'rxjs/operators';
+import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-root',
@@ -16,8 +17,8 @@ export class AppComponent implements OnInit{
   constructor(
     private isLoadingService: IsLoadingService,
     private router: Router,
+    public matDialog: MatDialog
   ) {}
-
   ngOnInit() {
     this.isLoading = this.isLoadingService.isLoading$();
 

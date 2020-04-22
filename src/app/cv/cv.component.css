@@ -1,0 +1,95 @@
+.cv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.cvPage{
+  width: 25rem;
+  margin: 0 2rem;
+  box-shadow: 0 0 10px;
+  height: 38rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.titreCV{
+  font-size: 2rem;
+  padding: 0;
+
+}
+
+.titreSection{
+  font-size: 1rem;
+  text-align: left;
+  padding-bottom: 9px;
+}
+
+.textSection{
+  font-style:italic;
+  font-size: xx-small;
+  text-align: center;
+}
+
+.section{
+  display:flex;
+  flex-direction: column;
+}
+
+.pictoAboutMe{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.infoAboutMe{
+  margin-left: 3px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fa {
+  font-size: 2rem;
+}
+
+.logoProg{
+  width: 30px;
+}
+
+.sectionLogo{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.listFormation{
+  font-size:0.9rem;
+  text-align: center;
+  width: 33%;
+  list-style: none;
+}
+
+#listForm{
+  display:flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.textFormation{
+  font-size: 0.7rem;
+}
+
+.sectionProGauche{
+  display:flex;
+  justify-content: flex-start;
+  background-color:red;
+}
+
+.sectionProDroite{
+  display:flex;
+  justify-content: flex-end;
+  background-color:blue;
+}

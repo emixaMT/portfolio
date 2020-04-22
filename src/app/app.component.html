@@ -1,16 +1,23 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" [routerLink]="['/']">Accueil</a>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" [routerLink]="['/places']">Lieux d'exposition</a>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" [routerLink]="['']"><img src="../assets/logo.png" alt="" style="width: 2.5rem"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['cv']">Mon CV</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Me contacter</a>
+      </li>
+    </ul>
+    <ul>
+      <li class="nav-item" >
+        <a class="nav-link" href="https://github.com/emixaMT?tab=repositories"><i class="fa fa-github" aria-hidden="true" id="github"></i></a>
+      </li>
+    </ul>
   </div>
-  <a [routerLink]="['login']" style="color: black;"><span class="material-icons" style="font-size: 40px">
-account_circle
-</span></a>
+
 </nav>
-<mat-progress-spinner *ngIf="isLoading | async" diameter=50
-                          mode="indeterminate"
-                          color="accent" style="position: absolute; z-index: 9999; top: 50%; left: 50%;">
-</mat-progress-spinner>
 <router-outlet></router-outlet>

@@ -3,3 +3,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+mat-dialog-container#modal-component {
+  border: 3px solid #262626;
+  border-radius: 11px;
+  background-color: white;
+  display: flex;
+}
+
+.cdk-overlay-container{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
