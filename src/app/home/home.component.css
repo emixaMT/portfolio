@@ -1,0 +1,24 @@
+.card {
+  width: 18rem;
+}
+@media (max-width: 340px) {
+  .carte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .carte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row {
+    justify-content: center;
+  }
+}

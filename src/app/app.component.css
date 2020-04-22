@@ -1,14 +1,7 @@
-html {
-  display: flex;
+#github {
+  color: #D4C429;
 }
 
-:host ::ng-deep .mat-progress-spinner circle, .mat-spinner circle {
-  stroke: #bada55;
-  transform: translate(50%, 50%)
-}
-
-#logout-button {
-  color: white;
-  background-color: #4b4b4b;
-  border: 1px solid black;
+#github:hover {
+  color: yellow;
 }

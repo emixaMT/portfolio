@@ -85,11 +85,9 @@
 .sectionProGauche{
   display:flex;
   justify-content: flex-start;
-  background-color:red;
 }
 
 .sectionProDroite{
   display:flex;
   justify-content: flex-end;
-  background-color:blue;
 }
